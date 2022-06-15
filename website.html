@@ -1,0 +1,125 @@
+<html>
+<head>
+<style>
+* { 
+  box-sizing: border-box;
+}
+
+.head{
+text-align:center;
+font-family:"Times new roman";
+font-size:30px;
+background-color:blue;
+margin:20px;
+padding:20px;
+}
+.menu ul{
+list-style-type:none;
+margin :0;
+padding:0;
+}
+.menu li{
+padding:10px;
+color:black;
+background-color:lightblue;
+margin-bottom:7px;
+border:0px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover{
+background-color:lightgreen;
+}
+.row::after{
+content: "";
+display:table;
+clear:both;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width:100%
+}
+.aside {
+  background-color: lightblue;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+h2{
+text-align:center;
+text-decoration:underline;
+}
+.one{
+text-align:center;
+font-size:30px;
+font-weight:bold;
+}
+@media only screen and (min-width: 600px) {
+
+  .col-s-1 {width: 25%;}
+
+  .col-s-2 {width: 35%;}
+
+  .col-s-3 {width: 40%;}
+
+   @media only screen and (min-width: 768px) {
+.col-1 {width: 25%;}
+  .col-2 {width: 35%;}
+  .col-3 {width: 40%;}
+
+}
+</style>
+</head>
+<body>
+<div class="head">
+<h1>sasikala Dhanabalan</h1>
+</div>
+<div class="row">
+<div class="col-1 col-s-1 menu">
+<ul>
+<li>Education Qualification</li>
+<li>Project</li>
+<li>Extra curicular activities</li>
+<li>Acheivements</li>
+<li><a href="https://github.com/sasikalaarunraj" target="_blank">Github</a></li>
+</ul>
+
+</div>
+<div class="col-2 col-s-2">
+<h2>About Me</h2>
+
+<p class="one">Iam SasikalaDhanbalan,I have completed B.E(ECE) with gold medal.I got outstanding student award and best project award.</p> 
+
+
+</div>
+<div class="col-3 col-s-3">
+<div class="aside">
+<h2>Acheivements</h2>
+<ul>
+<li>Anna university Rank holder(Forty Third rank) among 3666candidates.</li>
+<li>DepartmentTopper and received Ponnamma Charles Award for securing 1st place in UniversityExamination.</li>
+<li>Secured 9th Rank in diploma in software Engineering (DSE) course during June 2010Public Examination.</li>
+<li>Received Best Outgoing Student Award for 2010-2014batch.</li>
+<li>Received Joseph PratapSingh Masillamoni Scholarship for securing above 80% in a year.</li>
+<li>Received Shrimathi Florence Jayabarathan project grant of Rs.5000 for bestproject.</li>
+<li>Active volunteer in National service scheme in my schooling as well as in college.</li>
+<li>Event organizer in all school and college functions and other technical events.</li>
+ </ul>
+ </div>
+</div>
+</div>
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
